@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  background: linear-gradient(to bottom,#03045E, #000000);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.containerButton button {
+  background: rgba(255, 255, 255, 0.3);
+  width: 132px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: filter 500ms ease;
+}
+.containerButton button:hover {
+  filter: brightness(0.7);
+}
+.containerTemp {
+  display: flex;
+  justify-content: center;
+  margin: 24px 0px;
+}
+.containerCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+  height: 396px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.contentAtual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.contentMaxMin {
+  display: flex;
+  gap: 46px;
+}
+.containerHoje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerCardHoje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 342px;
+  height: 396px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  gap: 19px;
+  font-size: 18px;
+}
+.containerCardHoje hr {
+  width: 300px;
+}
+.contentHora {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}

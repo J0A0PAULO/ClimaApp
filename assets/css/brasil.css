@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  background: linear-gradient(to bottom, #03045E, #000000);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.containerButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.containerButton button {
+  background: rgba(255, 255, 255, 0.3);
+  width: 132px;
+  height: 42px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: filter 500ms ease;
+}
+.containerButton button:hover {
+  filter: brightness(0.7);
+}
+.containerLocais {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 24px;
+}
+.containerCard {
+  background: rgba(255, 255, 255, 0.3);
+  width: 342px;
+  height: 820px;
+  border-radius: 20px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 133px repeat(3, 220px);
+}
+.containerPais {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  border-bottom: 2px solid #fff;
+}
+.containerPais h1, h5 {
+  text-align: center;
+}
+.contentLocal {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 18px;
+  justify-content: center;
+  border-bottom: 2px solid #fff;
+}
+.contentTemp {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
