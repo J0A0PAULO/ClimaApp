@@ -1,6 +1,8 @@
 const apiKey = 'd321bd7d3c9449f198852415262303';
+const proxy = 'https://api.allorigins.win/raw?url='
+
 document.addEventListener('DOMContentLoaded', async (e) => {
-  const weather = await fetch(`https://corsproxy.io/?https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=Sao Paulo&lang=pt`)
+  const weather = await fetch(`${proxy}https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=Sao Paulo&lang=pt`)
   const api = await weather.json();
   console.log(api);
   document.querySelector('.cidade').textContent = api.location.region;
