@@ -4,7 +4,7 @@ Aplicação web que exibe as condições climáticas em tempo real de cidades br
 
 ---
 
-## 📸 Preview
+## 📸 Preview Figma
 
 ![Preview do ClimaApp](./assets/img/image.png)
 
@@ -63,7 +63,7 @@ git clone https://github.com/J0A0PAULO/climaapp.git
 
 Acesse o projeto em produção:
 
-> Link do deploy — adicione após publicar na Netlify
+https://appclimajp.netlify.app/index.html
 
 ---
 
