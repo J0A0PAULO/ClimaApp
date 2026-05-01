@@ -1,5 +1,5 @@
 const apiKey = 'd321bd7d3c9449f198852415262303';
-const proxy = 'https://api.allorigins.win/raw?url=';
+const proxy = 'https://thingproxy.freeboard.io/fetch/';
 
 document.addEventListener('DOMContentLoaded', async () => {
   const weatherSP = await fetch(`${proxy}${encodeURIComponent(`https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=Sao Paulo&lang=pt`)}`)
